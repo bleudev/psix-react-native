@@ -1,0 +1,56 @@
+@font-face {
+    font-family: SF_UI_Display;
+    src: url(assets/fonts/sf_ui_display_regular.ttf);
+}
+
+@font-face {
+    font-family: SF_UI_Display;
+    src: url(assets/fonts/sf_ui_display_medium.ttf);
+    font-weight: bold;
+}
+
+.container {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container .login {
+    width: 100%;
+    /* height: 100px; */
+    display: grid;
+    justify-items: center;
+}
+
+.container .login .socials {
+    display: grid;
+    grid-template-columns: 64px 64px 64px;
+    gap: 12px;
+    grid-auto-flow: row;
+    justify-items: center;
+}
+
+.container .login .text {
+    font-family: 'SF_UI_Display';
+    font-size: 32px;
+    margin: 0px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    display: grid;
+    gap: 5px;
+    width: 100%;
+    justify-items: center;
+}
+
+.footer * {
+    font-family: 'SF_UI_Display';
+    color: #747474;
+}
